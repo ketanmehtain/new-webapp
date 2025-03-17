@@ -1,13 +1,23 @@
 DB_CONFIG = {
-    'dbname': 'ledger-db',
-    'user': 'psqladmin',
-    'password': 'psqladmin',
-    'host': 'postgresql.database.azure.com',
+    'dbname': '',
+    'user': '',
+    'password': '',
+    'host': '',
     'port': '5432'
 }
 
-AZURE_STORAGE_CONFIG = {
-    'account_name': 'installwimp',
-    'account_key': '',
-    'container_name': 'dump'
+AZURE_DB_CONFIG = {
+    'dbname': '',
+    'user': '',
+    'password': '',
+    'host': '',
+    'port': '5432'
+}
+
+GCP_DB_CONFIG = {
+    'dbname': '',
+    'user': '',
+    'password': '',
+    'host': '',
+    'port': '5432'
 }
