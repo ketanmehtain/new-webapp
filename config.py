@@ -1,13 +1,13 @@
 DB_CONFIG = {
-    'dbname': 'test',
-    'user': 'kmehta',
-    'password': '',
-    'host': 'localhost',
+    'dbname': 'ledger-db',
+    'user': 'psqladmin',
+    'password': 'psqladmin',
+    'host': 'postgresql.database.azure.com',
     'port': '5432'
 }
 
 AZURE_STORAGE_CONFIG = {
-    'account_name': 'your_account_name',
-    'account_key': 'your_account_key',
+    'account_name': 'installwimp',
+    'account_key': '',
     'container_name': 'dump'
 }
