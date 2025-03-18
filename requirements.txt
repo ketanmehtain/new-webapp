@@ -10,3 +10,4 @@ Werkzeug==1.0.1
 psycopg2
 psycopg2-binary
 azure-storage-blob
+google-cloud-storage
